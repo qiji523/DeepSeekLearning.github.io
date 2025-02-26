@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepSeek 学习资料导航</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            background-color: #f5f5f5;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background-color: #2c3e50;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .link-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .link-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+
+        .link-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .link-card a {
+            text-decoration: none;
+            color: #3498db;
+            font-size: 1.2em;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .link-card a:hover {
+            color: #2980b9;
+        }
+
+        .description {
+            color: #666;
+            font-size: 0.95em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>DeepSeek 学习资料库</h1>
+            <p>精选优质学习资源导航</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="link-grid">
+            <!-- 示例链接1 -->
+            <div class="link-card">
+                <a href="#" target="_blank">人工智能基础课程</a>
+                <p class="description">从机器学习到深度学习，系统讲解AI核心概念与实践技巧，适合初学者入门的学习路径。</p>
+            </div>
+
+            <!-- 示例链接2 -->
+            <div class="link-card">
+                <a href="#" target="_blank">数据结构与算法</a>
+                <p class="description">涵盖常见数据结构与算法实现，包含LeetCode经典题目解析和实战演练。</p>
+            </div>
+
+            <!-- 示例链接3 -->
+            <div class="link-card">
+                <a href="#" target="_blank">前端开发实战</a>
+                <p class="description">现代Web开发全流程指南，包含HTML5、CSS3、JavaScript最新特性与框架应用。</p>
+            </div>
+
+            <!-- 示例链接4 -->
+            <div class="link-card">
+                <a href="#" target="_blank">Python编程进阶</a>
+                <p class="description">从基础语法到高级特性，深入讲解Python在数据分析、爬虫等领域的实际应用。</p>
+            </div>
+
+            <!-- 示例链接5 -->
+            <div class="link-card">
+                <a href="#" target="_blank">云计算入门指南</a>
+                <p class="description">全面解析云计算基础架构，包含AWS、Azure等主流平台的操作实践和最佳方案。</p>
+            </div>
+
+            <!-- 可以继续添加更多链接 -->
+        </div>
+    </div>
+</body>
+</html>
